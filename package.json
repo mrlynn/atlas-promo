@@ -1,0 +1,21 @@
+{
+  "name": "atlas-promo",
+  "version": "0.0.1",
+  "description": "Query credit codes in Data Warehouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "atlas-promo": "./bin/index.js"
+  },
+  "author": "Michael Lynn",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.3.4",
+    "yargs": "^13.2.4"
+  }
+}
